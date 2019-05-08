@@ -6,6 +6,7 @@ class index
 {
     public function index($params = [])
     {
-        echo 'hello world '.$params['name'];
+        $db = (new \smdb\Db())->conn;
+        print_r($db->select('id', 'username')->from('user'));
     }
 }

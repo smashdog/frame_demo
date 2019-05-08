@@ -2,7 +2,7 @@
 
 return [
     'GET' => [
-        '/index/index/index/{name}' => 'app/index/index/index',
+        '/index/index/index' => 'app/index/index/index',
     ],
     'POST' => [],
     'PUT' => [],

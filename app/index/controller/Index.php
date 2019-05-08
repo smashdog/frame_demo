@@ -6,6 +6,6 @@ class Index
 {
     public function index($params = [])
     {
-        (new \app\index\logic\Index())->index($params);
+        (new \app\index\logic\Index())->index();
     }
 }
