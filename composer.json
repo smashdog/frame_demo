@@ -1,5 +1,5 @@
 {
-    "name": "smashdog frame demo",
+    "name": "smashdog/frame_demo",
     "description": "smashdog frame demo",
     "require": {
         "smashdog/frame": "^1.1.0",
