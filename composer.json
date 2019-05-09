@@ -1,6 +1,6 @@
 {
     "require": {
-        "smashdog/frame": "^1.0.3",
+        "smashdog/frame": "^1.1.0",
         "smashdog/frame_database": "^1.0.5"
     }
 }
