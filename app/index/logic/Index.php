@@ -15,6 +15,6 @@ class index
         $db = (new \smdb\Db())->conn;
         $r = $db->select('id', 'username')->from('user');
 
-        return spf($r);
+        return p($r);
     }
 }
